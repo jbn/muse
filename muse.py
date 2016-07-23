@@ -12,7 +12,7 @@ AutoIndex(app, browse_root=DOWNLOAD_DIR)
 DEFAULT_CMD = ["youtube-dl",
                "--extract-audio",
                "--audio-format", "mp3",
-               "--audio-quality", "9",
+               "--audio-quality", "0",
                "-o", "downloads/%(title)s.%(ext)s"]
 
 def fetch(youtube_id):
